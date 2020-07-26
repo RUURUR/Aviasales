@@ -4,19 +4,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ависалес</title>
+	<title>Aviasales</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<h1>Авиасалес</h1>
+	<h1>Aviasales</h1>
 	<main>
 
 		<section class="wrapper">
 			<form class="form-search">
 				<div class="wrapper__search">
 					<div class="input" style="display: block;">
-						<label>Откуда
+						<label>
+							from where
 							<input type="text" class="input__cities-from" required>
 						</label>
 						<ul class="dropdown dropdown__cities-from">
@@ -25,7 +26,8 @@
 					</div>
 
 					<div class="input">
-						<label>Куда
+						<label>
+							Where
 							<input type="text" class="input__cities-to" required>
 						</label>
 						<ul class="dropdown dropdown__cities-to">
@@ -34,7 +36,7 @@
 					</div>
 
 					<div class="input input__cities-from">
-						<label>Отправление
+						<label>Send
 							<input type="date" class="input__date-depart" required>
 						</label>
 					</div>
@@ -42,7 +44,7 @@
 
 				<div class="wrapper__button">
 					<button type="submit" class="button button__search">
-						<span class="button__search-text">Найти билеты</span>
+						<span class="button__search-text">Find ticket</span>
 					</button>
 				</div>
 			</form>
@@ -50,12 +52,14 @@
 		<section class="wrapper">
 
 			<section class="wrapper__ticket" id="cheapest-ticket">
-				<h2>Самый дешевый билет на выбранную дату</h2>
+				<h2>
+					The cheapest ticket for the selected date</h2>
 				
 			</section> 
 
 			<section class="block__ticket" id="other-cheap-tickets">
-				<h2>Самые дешевые билеты на другие даты</h2>
+				<h2>
+					Cheapest tickets for other dates</h2>
 			</section> 
 		</section>
 
